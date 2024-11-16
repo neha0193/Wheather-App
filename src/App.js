@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import './index.css';
 
+
 function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState('');
@@ -28,6 +29,7 @@ function App() {
           onKeyDown={searchLocation}
           placeholder='Enter Location'
           type='text' />
+          <p style={{padding:"5px"}}>The World’s Weather in Your Hands</p>
       </div>
 
       <div className='container'>
@@ -67,3 +69,4 @@ function App() {
 
 export default App;
 // npm i axios
+// The World’s Weather in Your Hands"

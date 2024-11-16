@@ -11,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 p {
@@ -42,6 +43,8 @@ color: #fff;
   padding: 1rem;
 }
 
+
+
 .app input {
   text-align: left;
   padding: .7rem 1.5rem;
@@ -57,8 +60,8 @@ color: #fff;
 }
 
 .container {
-  max-width: 700px;
-  height: 700px;
+  max-width: 600px;
+  height: 600px;
   margin: auto;
   padding: 0 1rem;
   position: relative;
@@ -85,7 +88,7 @@ color: #fff;
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  margin: 40% auto;
+  margin: 30% auto;
   padding: 1rem;
   border-radius: 12px;
   background-color: rgba(255,255,255,0.2);

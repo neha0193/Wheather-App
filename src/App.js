@@ -29,7 +29,7 @@ function App() {
           onKeyDown={searchLocation}
           placeholder='Enter Location'
           type='text' />
-          <p style={{padding:"5px"}}>The World’s Weather in Your Hands</p>
+        <p style={{ padding: "5px" }}>The World's Weather in Your Hands</p>
       </div>
 
       <div className='container'>
